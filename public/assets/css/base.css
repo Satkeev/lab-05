@@ -47,13 +47,13 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 /* the most awesome background - the secret background party */
-/* body {
+body {
   animation: colorchange 1s infinite; /* animation-name followed by duration in seconds*/
      /* you could also use milliseconds (ms) or something like 2.5s */
   /* -webkit-animation: colorchange 1s inifintite; /* Chrome and Safari */
-/* }
+}
 
- @keyframes colorchange
+@keyframes colorchange
 {
   0%   {background: red;}
   25%  {background: yellow;}
@@ -68,5 +68,5 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   25%  {background: yellow;}
   50%  {background: blue;}
   75%  {background: green;}
-  100% {background: red;} */
-/* }   */
+  100% {background: red;} 
+}  
